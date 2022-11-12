@@ -44,17 +44,18 @@ ul {
 }
 
 ul > li {
-    flex-direction: column;
-    align-items: center;
-    font-size: 0.8em;
-    font-weight: bold;
-    border-radius: 1em;
-    background-color: #000a;
-    color: #fff;
-    padding: 0.3em 0.6em;
-    border: 1px solid #fffa;
+    background-color: #fff;
+    border-radius: 10em;
+    padding: 1em;
+    margin:  1.4em 0;
+    box-shadow: 3.4px 6.9px 6.9px hsl(0deg 0% 0% / 0.39);
 }
 
 ul > li > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 0.5em;
 }
+
