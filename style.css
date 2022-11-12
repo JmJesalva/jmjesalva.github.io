@@ -4,6 +4,11 @@ body, html {
     font-family:'Open Sans';
 }
 
+body { 
+    background: url(./Assets/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 header{
     margin-top: 1em;
     text-align: center;
@@ -18,4 +23,38 @@ header > img {
     border-radius: 100px;
     border: 1px;
     box-shadow: 3.4px 6.9px 6.9px hsl(0deg 0% 0% / 0.39);
+}
+
+header > h1{
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: #000a;
+    color: rgb(255, 255, 255);
+    padding: 0.3em 0.6em;
+    border: 1px solid #fffa;
+}
+
+ul {
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+ul > li {
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: #000a;
+    color: #fff;
+    padding: 0.3em 0.6em;
+    border: 1px solid #fffa;
+}
+
+ul > li > a {
+    align-items: center;
 }
